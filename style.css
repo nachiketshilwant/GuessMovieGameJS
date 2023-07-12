@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1976d2;
+}
+.game{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+}
+
+#start{
+    background: #fff;
+    border: 0px solid #000;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#start:hover{
+    background: #f3eff5;
+}
+.gmdvm{
+    background: #fff;
+    height: 28rem;
+    width: 30rem;
+    border-radius: 1rem;
+    position: relative;
+    display: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.chances{
+    position: absolute;
+    right: 0.6rem;
+    top: 0.5rem;
+}
+.hint{
+    margin-top: 3rem;
+}
+.word{
+    margin-top: 1rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.word u{
+    margin:0.5rem;
+}
+.letter{
+    display: flex;
+    margin-top: 1.5rem;
+    width: 32rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.letter p{
+    border: 0.01rem solid #1976d2;
+    /* color: #1976d2 ; */
+    margin: 1rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    width: 0.8rem;
+}
+.letter p:hover{
+    background: #1976d2;
+    color: #fff;
+}
+.msg{
+    /* display: none; */
+    margin-top: 1rem;
+}
+.success{
+    background: #4bb543;
+    color: white;
+}
+.fail{
+    background: #959595;
+    color: #fff;
+}
+.cmp{
+   color: #fff;
+   text-align: center;
+   margin: 1rem 0;
+}
+.hntwd{
+    font-size: 3rem;
+}
